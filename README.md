@@ -6,3 +6,13 @@ For a deeper dive into the `Object` vs. `Map` comparison, see https://developer.
 
 **Note:** This package does not provide a 2-way data conversion. It _only_ transforms a `Map` into an `Object`. 
 For example, this could be useful for manipulating data within a Map while outputting `JSON` to a REST API.
+
+Example Code:
+```
+$ const map2json = require('../src/map2json.js');
+$ const anonFnc = const anonFnc = () => {console.log('fnc called')};
+$ const inputMap = new Map([[1, ['hello', 'world']], ['fnc', anonFnc]]);
+$ const objFromMap = map2json(inputMap);
+$ console.log(objFromMap)
+$ { '1': [ 'hello', 'world' ], fnc: [Function: anonFnc] }
+```
