@@ -1,0 +1,25 @@
+{
+  "name": "map2json",
+  "version": "1.0.0",
+  "description": "Convert an ES6 Map to a valid object representation",
+  "main": "map2json.js",
+  "scripts": {
+    "test": "istanbul cover jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "map",
+    "json",
+    "es6",
+    "js"
+  ],
+  "author": "Blake Yoder",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jest": "^23.6.0"
+  }
+}
