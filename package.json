@@ -1,6 +1,6 @@
 {
   "name": "map2json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert an ES6 Map to a valid object representation",
   "main": "map2json.js",
   "scripts": {
