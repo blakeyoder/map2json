@@ -1,7 +1,7 @@
 # map2json
 
 Convert a JS [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) to a JS `Object`.
-The Map data structure gives developers a handful of different, and often useful, features in comparison to a plain `Object`.
+The Map data structure gives developers a handful of different, and often useful features in comparison to a plain `Object`.
 For a deeper dive into the `Object` vs. `Map` comparison, see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#Objects_and_maps_compared.
 
 **Installation:**
@@ -10,7 +10,7 @@ For a deeper dive into the `Object` vs. `Map` comparison, see https://developer.
 **Example Code:**
 ```
 $ const map2json = require('map2json');
-$ const anonFnc = const anonFnc = () => {console.log('fnc called')};
+$ const anonFnc = () => {console.log('fnc called')};
 $ const inputMap = new Map([[1, ['hello', 'world']], ['fnc', anonFnc]]);
 $ const objFromMap = map2json(inputMap);
 $ console.log(objFromMap)
